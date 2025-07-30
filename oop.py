@@ -1,4 +1,5 @@
 # 1st ex
+print("1st exer..")
 
 
 class Person:
@@ -12,17 +13,17 @@ class Person:
         if age >= 0:
             self._age = age
         else:
-            print("Ошибка: Возраст не может быть отрицательным.")
+            print(f"Ошибка: Возраст не может быть отрицательным ({age})\n")
 
 
 p = Person()
 p.set_age(25)
 print(f"Возраст: {p.get_age()}")
 p.set_age(-5)
-print(f"Возраст не может быть отрицательным.\n")
 
 
 # 2nd ex
+print("2nd exer..")
 
 
 class Animal:
@@ -49,6 +50,7 @@ print(cat.name, cat.speak())
 
 
 # 3rd ex
+print("3rd exer..")
 
 
 class Vehicle:
@@ -75,6 +77,7 @@ print(move(bike))
 
 
 # 4th ex
+print("4th exer..")
 
 
 from abc import ABC, abstractmethod
